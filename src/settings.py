@@ -51,7 +51,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]] or Literal["predefined"]] = "predefin
 
 # If you have more than the one paper, put the most relatable link as the first element of the list
 # Use dict key to specify name for a button
-PAPER: Optional[Union[str, List[str], Dict[str, str]]] = "https://arxiv.org/pdf/2005.08630"
+PAPER: Optional[Union[str, List[str], Dict[str, str]]] = "https://arxiv.org/abs/2005.08630"
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
 REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {
     "Kaggle": "https://www.kaggle.com/datasets/manideep1108/tusimple/data"
