@@ -13,7 +13,7 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "TuSimple: Lane Detection"
+PROJECT_NAME: str = "TuSimple"
 PROJECT_NAME_FULL: str = "TuSimple: Lane Detection"
 HIDE_DATASET = True  # set False when 100% sure about repo quality
 
@@ -24,7 +24,7 @@ LICENSE: License = License.Apache_2_0(source_url="https://github.com/TuSimple/tu
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [Industry.Automotive()]
 CATEGORY: Category = Category.SelfDriving()
 
-CV_TASKS: List[CVTask] = [AnnotationType.InstanceSegmentation(), AnnotationType.ObjectDetection()]
+CV_TASKS: List[CVTask] = [CVTask.InstanceSegmentation(), CVTask.SemanticSegmentation(), CVTask.ObjectDetection()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.InstanceSegmentation()]
 
 RELEASE_DATE: Optional[str] = "2020-05-06"  # e.g. "YYYY-MM-DD"
